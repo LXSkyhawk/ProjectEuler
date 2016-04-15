@@ -5,6 +5,6 @@ for x in range(1, 1000):
         product = str(x * y)
 
         if product == product[::-1]:
-            products.append(product)
+            products.append(int(product))
 
-print(products[-1])
+print(max(products))
