@@ -7,8 +7,7 @@ while num >= x:
         factors.append(x)
 
         while num % x == 0:
-            print(num)
             num /= x
     x += 1
 
-print(factors)
+print(factors[-1])
